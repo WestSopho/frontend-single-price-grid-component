@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Single Price Grid Component</title>
+  <link rel="stylesheet" href="css/output.css">
+</head>
+<body>
+  <!-- Background -->
+  <div class="min-h-screen bg-[#E6EFF5] font-karla flex justify-center items-center">
+    <!-- Grid -->
+    <div class="flex flex-col max-w-[635px] drop-shadow-xl m-5">
+      <!-- First Block -->
+      <div class="bg-white p-10 space-y-7 tracking-tight rounded-t-xl sm:space-y-3">
+        <p class="font-bold text-[#2AB3B1] text-xl tracking-tighter sm:text-2xl">Join our community</p>
+        <p class="font-bold text-[#C0DF33] text-[15px] sm:text-lg">30-day, hassle-free money back guarantee</p>
+        <p class="text-[#9AA7BE] text-[14px] sm:tracking-normal">Gain access to our full library of tutorials along with expert code reviews. Perfect for any developers who are serious about honing their skills.</p>
+      </div>
+      <!-- Second and Third Block Wrapper -->
+      <div class="flex flex-col sm:flex-row">
+        <!-- Second Block -->
+        <div class="p-10 space-y-7 bg-[#2AB3B1] text-white grow sm:rounded-bl-xl">
+          <!-- Subscription Title -->
+          <p class="font-bold text-lg">Monthly Subscription</p>
+          <!-- Price Details -->
+          <div>
+            <!-- Price -->
+            <div class="flex justify-start items-center gap-3">
+              <p class="font-bold text-[32px]">$29</p>
+              <p class="opacity-50">per month</p>
+            </div>
+            <!-- Benefit -->
+            <p>Full access for less than $1 a day</p>
+          </div>
+          <!-- Button -->
+          <button class="bg-[#C0DF33] w-full py-3 font-bold">Sign Up</button>
+        </div>
+        <!-- Third Block -->
+        <div class="bg-[#2AB3B1] p-10 space-y-7 bg-opacity-75 text-white rounded-b-xl sm:rounded-b-none sm:rounded-br-xl grow">
+          <!-- Title -->
+          <p class="font-bold text-lg">Why Us</p>
+          <!-- Benefits List -->
+          <div class="opacity-75">
+            <p>Tutorials by industry experts</p>
+            <p>Peer & expert code review</p>
+            <p>Coding exercises</p>
+            <p>Access to our GitHub repos</p>
+            <p>Community forum</p>
+            <p>Flashcard decks</p>
+            <p>New videos every week</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
